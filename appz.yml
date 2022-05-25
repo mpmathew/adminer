@@ -1,7 +1,7 @@
 app:
     name: Adminer
     code: adminer
-    notify: appz@ecloudcontrol.com
+    notify: mpmathew@ecloudcontrol.com
     
 build:
     version: 4.8
@@ -11,13 +11,13 @@ build:
     image_template: adminer-4.8
 
 deploy:
-    context: alpha/DEV
+    context: mpmathew/DEV
     replicas: 1
     port:
     - 8080
   
 properties:
-    revision : 27
+    revision : 28
     MFA_PROVIDER : GA
     AUTHSECRET: 
         vault : ADMINER_AUTHSECRET
