@@ -21,5 +21,3 @@ properties:
     MFA_PROVIDER : None
     AUTHSECRET: 
         vault : ADMINER_AUTHSECRET
-    HOOK_SECRET:
-        vault : APPZ_HOOK_SECRET
